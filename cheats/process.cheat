@@ -8,4 +8,4 @@ ps -u <user> ux
 kill <pid>
 
 $ user: echo "$USER"
-$ pid: ps -u $user -no-headers ux | awk '{print $2}'
+$ pid: ps -u $USER -no-headers ux | awk '{print $2}'
