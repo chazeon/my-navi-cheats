@@ -10,6 +10,7 @@ scancel <job_id>
 
 # get job info
 scontrol show jobid -d <job_id>
+# get very detailed job info
 scontrol show jobid -dd <job_id>
 
 # watch job info
