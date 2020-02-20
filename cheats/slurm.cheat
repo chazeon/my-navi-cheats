@@ -7,6 +7,8 @@ squeue -u <user> -o "%.10i %.9P %.8j %.2t %.10M %.6D %Z" | sed -e "s#$SCRATCH#\$
 
 # cancel job
 scancel <job_id>
+# cancel all jobs
+squeue -u <user> -h | awk '{print $1}' | xargs scancel
 
 # get job info
 scontrol show jobid -d <job_id>
