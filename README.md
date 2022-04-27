@@ -16,7 +16,7 @@ Cheatsheets for the **[`navi`][navi]** interactive cheatsheet tool.
 Install [`navi`][navi] and [`fzf`][fzf] (both are binary executables), then install the cheats from this repo
 
 ```
-$ navi repo add navi repo add https://github.com/chazeon/my-navi-cheats
+$ navi repo add https://github.com/chazeon/my-navi-cheats
 ```
 
 [fzf]: https://github.com/junegunn/fzf
